@@ -83,7 +83,7 @@ export default function ViewNotes() {
         >
           <img
             className="vector2"
-            src="/public/assets/Vector2.png"
+            src="assets/Vector2.png"
             alt="Add Note"
           />
         </button>
