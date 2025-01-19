@@ -1,0 +1,83 @@
+.modalBg {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.modalContainer {
+  background-color: white;
+  height: 45dvh;
+  display: grid;
+  padding: 1.5%;
+  border-radius: 3px;
+  gap: 10%;
+}
+
+.modalContainer p {
+  font-size: 0.8rem;
+}
+
+.groupName {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.groupName input {
+  border: 1px solid #979797;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.chooseColour {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headingTxt h2 {
+  font-size: 1rem;
+}
+
+.createSubmit {
+  width: 3rem;
+  height: 1rem;
+  font-size: 0.6rem;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  background-color: #001f8b;
+  color: white;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: end;
+  margin: 10px 0 0 0;
+}
+
+@media (max-width: 481px) {
+  .modalContainer {
+    background-color: white;
+    height: 25dvh;
+    display: grid;
+    padding: 1.5%;
+    border-radius: 3px;
+    gap: 10%;
+  }
+}
