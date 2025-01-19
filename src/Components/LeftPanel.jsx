@@ -17,7 +17,7 @@ export default function LeftPanel({ groups, setModalView }) {
           setModalView(true);
         }}
       >
-        <img src="../public/assets/Group 24.png" />
+        <img src="assets/Group 24.png" />
       </button>
     </div>
   );
