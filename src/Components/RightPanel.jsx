@@ -10,8 +10,10 @@ export default function RightPanel() {
         Notes on up to 4 linked devices and 1 mobile phone
       </p>
       <div className="footer">
-        <img className="footerVector" src="./assets/FooterVector.png" />
-        <p>end-to-end encrypted</p>
+        <p>
+          <img className="footerVector" src="./assets/FooterVector.png" />
+          end-to-end encrypted
+        </p>
       </div>
     </div>
   );

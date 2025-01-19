@@ -68,14 +68,10 @@
   height: 150px;
 }
 
-.footer {
-  display: flex;
-  gap: 0;
-  height: 1rem;
-}
-
 .footer p {
   font-size: 0.5rem;
+  display: flex;
+  gap: 10px;
 }
 
 .footer img {
